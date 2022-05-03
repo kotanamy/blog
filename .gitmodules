@@ -1,0 +1,4 @@
+[submodule "kotanamy/public"]
+	path = kotanamy/public
+	url = https://github.com/kotanamy/kotanamy.github.io.git
+	branch = main
