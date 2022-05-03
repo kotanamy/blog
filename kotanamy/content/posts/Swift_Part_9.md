@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Road to IOS/Swift dev part 9"
-date: 2022-05-03
+date: 2022-05-04
 draft: false
 author: "Kotanamy"
 description: "Стартовые понятия Swift"

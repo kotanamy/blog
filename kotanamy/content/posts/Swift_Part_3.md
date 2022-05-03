@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Road to IOS/Swift dev part 3"
-date: 2022-04-10
+date: 2022-04-13
 draft: false
 author: "Kotanamy"
 description: "Стартовые понятия Swift"
