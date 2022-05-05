@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Вычисляемые свойства, cвойства класса.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 8
 ## **Стартовые понятия Swift**
 
@@ -80,7 +84,7 @@ print(person.secondName) // Duck
 ```
 
 
-14. Свойства класса(Class properties)
+### 14. Свойства класса(Class properties)
 
 ```Swift
 class Car {
@@ -118,7 +122,7 @@ if maxWeight < totalWeight {
 }
 ```
 
-14.2 **class func** и **static func**
+#### 14.2 **class func** и **static func**
 
 Модификаторы static и class позволяют нам "прикрепить" методы к классу, а не к экземплярам класса. **class func** и **static func** (то же самое что и **final class func**) все же имеют различия, вот на примерчике рассмотрим:
 
@@ -156,7 +160,7 @@ class B : A {
 }
 ```
 
-14.3 Ленивые свойства (lazy properties)
+#### 14.3 Ленивые свойства (lazy properties)
 
 Ленивое свойство - не инициализируется до момента обращения к нему
 
@@ -191,7 +195,7 @@ let optimizedProcessing = OptimizedProcessing()
 print(optimizedProcessing.bigDataProcessing) 
 ```
 
-14.4 Уровни доступа (access level)
+#### 14.4 Уровни доступа (access level)
 
 Уровни доступа нужны для того чтобы ограничить область видимости метода или свойства, или инкапсулировать (спрятать) реализацию метода или свойства.
 

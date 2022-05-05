@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Кортежи, опционалы.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 6
 ## **Стартовые понятия Swift**
 

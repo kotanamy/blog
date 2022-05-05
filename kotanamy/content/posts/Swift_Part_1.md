@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Предисловие, константы и переменные,типы данных, базовые операторы.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 1
 ## **Стартовые понятия Swift**
 

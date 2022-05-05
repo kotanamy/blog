@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Циклы.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 4
 ## **Стартовые понятия Swift**
 
@@ -19,7 +23,7 @@ lightgallery: true
 
 ### 7. Циклы
 
-7.1 Цикл for
+#### 7.1 Цикл for
 
 ```Swift
 for i in 0...5 {
@@ -60,7 +64,7 @@ for i in stride(from: 0, through: 10, by: 5) { // от до шаг
 }
 ```
 
-7.2 while и repeat while
+#### 7.2 while и repeat while
 
 while
 

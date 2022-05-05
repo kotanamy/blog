@@ -12,6 +12,9 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Небольшой туториал по Markdown.
+
+<!--more-->
 
 # Markdown для генератора статических сайтов
 <br>

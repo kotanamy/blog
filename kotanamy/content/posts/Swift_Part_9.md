@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Наблюдатели свойств.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 9 
 ## **Стартовые понятия Swift**
 

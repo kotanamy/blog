@@ -12,6 +12,10 @@ categories: ["Documentation"]
 lightgallery: true
 ---
 
+Стартовые понятия Swift. Условные операторы.
+
+<!--more-->
+
 # Road to IOS/Swift dev part 3
 ## **Стартовые понятия Swift**
 
