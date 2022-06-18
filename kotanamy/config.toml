@@ -21,6 +21,14 @@ theme = "LoveIt"
     url = "cv.pdf"
     title = ""
     weight = 2
+  [[menu.main]]
+    identifier = "Resume"
+    pre = ""
+    post = ""
+    name = "Resume"
+    url = ""
+    title = ""
+    weight = 2
 
 # Markup related configuration in Hugo
 [markup]
