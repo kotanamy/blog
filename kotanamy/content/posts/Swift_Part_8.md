@@ -195,7 +195,7 @@ let optimizedProcessing = OptimizedProcessing()
 print(optimizedProcessing.bigDataProcessing) 
 ```
 
-#### 14.4 Уровни доступа (access level)
+#### 15 Уровни доступа (access level)
 
 Уровни доступа нужны для того чтобы ограничить область видимости метода или свойства, или инкапсулировать (спрятать) реализацию метода или свойства.
 
