@@ -104,6 +104,39 @@ print(charArr) // ["S", "w", "i", "f", "t"] (part2 5.1)
 type(of: string) // Выведет тип константы string (String)
 ```
 
+#### 3.1 Ввод с клавиатуры
+
+readLine() используется для чтения входных данных пользователя. Он имеет 2 формы:
+
+1. readLine() - по умолчанию
+2. readLine(strippingNewLine: Bool) - по умолчанию установлено значение true. Swift всегда предполагает, что новая строчка не является частью ввода
+
+Пример использования
+```Swift
+let str = readLine()
+print(str)
+```
+
+Все рассказанное ниже будет не понятно новичкам, не придавайте этому значения, в последующих уроках будет рассказаны все необъясненные термины.
+
+Чтение Int
+```Swift
+let inputInt : Int = Int(readLine()!)!
+```
+
+Чтение массива Int
+```Swift
+let arrInt : [Int] = readLine()!.components(separatedBy:" ").map{ Int($0)! }
+```
+
+Чтение массива по строкам (т.е. через \n (enter))
+
+```Swift
+let arrInt : [Int] = readLine()!.components(separatedBy:"\n").map{(a: String) -> (Int) in
+    return Int(a)!
+}
+```
+
 <br>
 
 ### Базовые операторы

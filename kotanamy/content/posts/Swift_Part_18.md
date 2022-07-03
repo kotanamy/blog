@@ -21,7 +21,7 @@ lightgallery: true
 
 <br>
 
-### 28. **Функции (методы) высшего порядка (map, mapValues, filter, reduce, sorted, flatMap, zip)**
+### 28. **Функции (методы) высшего порядка (map, mapValues, filter, reduce, sorted, flatMap, zip, allSatisfy)**
 
 **Функция высшего порядка** - это функция, которая принимает другую функцию в качестве аргумента.
 
@@ -211,4 +211,18 @@ Array(zipS) // [(.0 1, .1 4), (.0 2, .1 5), (.0 3, .1 6)]
 
 // генерация словаря на основе последовательности пар значений
 let newDict = Dictionary(uniqueKeysWithValues: zipS) // [2: 5, 3: 6, 1: 4]
+```
+
+#### **28.7 allSatisfy()**
+
+Проверяет, все ли элементы коллекции соответствуют заданному условию
+
+```Swift
+let arr = [10, 20, 30, 5, 8]
+
+let answer = arr.allSatisfy{ $0 >= 15 }
+print(answer) // false
+
+let answer2 = arr.allSatisfy{ $0 <= 40 }
+print(answer) // true
 ```
