@@ -94,7 +94,7 @@ fuel = 20
 
 print("\(fuel) liters left") // Optional(20) liters left
 
-// Принудительное изменение значения
+// Принудительное извлечение значения
 // если в этот момент fuel будет nil, то приложение крашнется
 
 print("\(fuel!) liters left")
@@ -124,6 +124,61 @@ func checkFuel(){
 checkFuel() // Все плохо
 fuel = 10
 checkFuel() // 10
+```
+
+Приведение типов
+```Swift
+let b = (a as? Int) // 'b' будет равно nil, если 'a' нельзя преобразовать в Int
+let b = (a as! Int) // если 'a' нельзя преобразовать в Int, программа завершится
+```
+
+<br>
+
+
+
+__Вынесу отдельно несколько способов развернуть optional__
+
+Forse unwrapping (проверяю на nil, а то вдруг "a" пустая):
+```Swift
+let a: String? = "a"
+
+if a != nil {
+    print(a!)
+} else {
+    print("Error")
+}
+```
+
+guard
+```Swift
+let b: String? = "b"
+
+guard let b = b else { return }
+```
+
+if let
+```Swift
+let c: String? = "c"
+
+if let c = c {
+    print(c)
+} else {
+    print("Error")
+}
+```
+
+nil coalescing
+```Swift
+let d: String? = "d"
+
+print(d ?? "Error")
+```
+
+Optional chaining
+```Swift
+let e : String? = "e"
+
+print(e?.uppercased())
 ```
 <br>
 

@@ -74,12 +74,14 @@ class Petuh {
     var name: String 
     var age: Int
 
+    // Дефолтный инициализатор
     init(){
         self.id = 0
         self.name = "Petuh"
         self.age = 0 
     }
 
+    // Инициализатор с параметрами
     init(id: Int, name: String, age: Int){
         self.id = id
         self.name = name
@@ -89,13 +91,21 @@ class Petuh {
     func coCo() -> Void {
         print("Co-Co and kudah, \(id) _ \(name) _ age: \(age)")
     }
+
+    // Деинициализатор (деструктор) - вызывается непосредственно перед освобождением экземпляра класса
+    deinit {
+        // Здесь освобождаем память если надо, а если не надо,
+        // то вообще deinit не пишем, он вызовется неявно
+    }
 }
 
 let p1 = Petuh() // инициализатор без параметров
 let p2 = Petuh(id: 1, name: "Kukish", age: 2) // инициализатор с параметрами
-p1.coCo() // Co-Co and kudah 0 _ Petuh 0
-p2.coCo() // Co-Co and kudah 1 _ Kukish 2
+p1.coCo() // Co-Co and kudah, 0 _ Petuh _ 0
+p2.coCo() // Co-Co and kudah, 1 _ Kukish _ 2
 ```
+
+Чтобы узнать больше [ТЫК](https://swiftbook.ru/content/languageguide/initialization/)
 
 #### 12.3. Наследование
 
@@ -132,7 +142,7 @@ class Petuh: Chicken {
 
     override init(name: String) {
         super.init(name: name)
-        self.egg = 1
+        self.egg = 2
     }
 
     override func coCo() -> String { // override - переопределяем функцию базового класса

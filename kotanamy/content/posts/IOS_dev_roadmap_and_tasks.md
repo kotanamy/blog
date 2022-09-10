@@ -47,53 +47,54 @@ Swift
 - [x] Протоколы.
 - [x] Универсальные типы.
 - [x] Функции высшего порядка (map, mapValues, filter, reduce, flatMap, zip).
-- [] Многопоточность (GCD, Operation)
+- [x] Async\Await
+- [x] Многопоточность (GCD, Operation)
 
 Архитектура и все что с ней связано
 
 - [x] Общее описание
-- [x] Clean architecture
+- [x] Clean architecture (mini guide)
 - [x] Singleton
-- [] MVC
-- [] MVP
-- [] Coordinator
-- [] MVVM
-- [] VIPER
-- [] SOLID
-- [] KISS
+- [ ] MVC
+- [ ] MVP
+- [ ] Coordinator
+- [ ] MVVM
+- [ ] VIPER
+- [ ] SOLID
+- [ ] KISS
 
 SwiftUI
 
-- []
+- [ ]
 
 UIKit (Текстовых статей не будет)
 - [x] Выложить полезные ссылки
 
 Работа с интернетом
 
-- [] HTTP (общее описание)
-- [] TCP
-- [] UDP
-- [] Работа с сетью (Swift) (URLSession)
-- [] REST API
-- [] JSON
-- [] Alamofire
-- [] OAuth
-- [] Реализация клиент серверного приложения
+- [ ] HTTP (общее описание)
+- [ ] TCP
+- [ ] UDP
+- [ ] Работа с сетью (Swift) (URLSession)
+- [ ] REST API
+- [ ] JSON
+- [ ] Alamofire
+- [ ] OAuth
+- [ ] Реализация клиент серверного приложения
 
 RXSwift\Combine
-- []
+- [ ]
 
 Git
-- []
+- [ ]
 
 Other
 
-- [] Pod
-- [] XCode
-- [] SwiftLint
-- [] Unit Testing (XCTest)
-- [] UI Testing (XCUITest)
-- [] KVC - KVO
-- [] CI\CD (GitHub Actions)
-- [] SwiftGen
+- [ ] Pod
+- [ ] XCode
+- [ ] SwiftLint
+- [ ] Unit Testing (XCTest)
+- [ ] UI Testing (XCUITest)
+- [ ] KVC - KVO
+- [ ] CI\CD (GitHub Actions)
+- [ ] SwiftGen

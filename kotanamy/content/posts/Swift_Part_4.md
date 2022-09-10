@@ -27,13 +27,13 @@ lightgallery: true
 
 ```Swift
 for i in 0...5 {
-    print(i)
+    print(i) // 0 1 2 3 4 5
 }
 
 let arr = ["A", "B", "C"]
 
 for i in arr{
-    print(i)
+    print(i) // "A" "B" "C"
 }
 ```
 
@@ -52,7 +52,7 @@ for (name, view) in peopleAndViews {
 ```Swift
 let arr = [10,20,3,78,41,1]
 
-for (index, value) in arr.enumerated(){
+for (index, value) in arr.enumerated() {
     print(index, value)
 }
 ```

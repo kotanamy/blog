@@ -76,7 +76,7 @@ if a == 1 && b != 10 {
 ```Swift
 let a = true
 
-let b = a ? "true" : "false" // b = true  
+let b = a ? "true" : "false" // b = "true"  
 ```
 
 #### 6.2 guard
@@ -84,7 +84,7 @@ let b = a ? "true" : "false" // b = true
 Функции будут описаны позднее, так что на func следует просто принимать за абстрактный блок кода в вакууме
 
 ```Swift
-func someFunc(a: Int, b: Int){
+func someFunc(a: Int, b: Int) {
     // guard всегда требует else
     guard a == b else { return } // если a == b, то выполнение блока кода прерывается
 
@@ -107,13 +107,38 @@ let total = 10
 switch total {
     case 5...10:
         print("You win")
-        fallthrough // провалиться вниз чтобы еще отыграл еще один case
+        fallthrough // провалиться в следующий кейс (ему пофигу на сам кейс)
     case 0, -1:
         print("******* mount of this casion")
     case 1...5:
         print("Great")
-    default:
+    default: // выполняется если не подошли все остальные варианты
         print("Casino broken")
 }
+```
+
+Интересная задачка на fallthrough
+
+```Swift
+let n = 5
+var result = 0
+
+switch n {
+    case 1...5:
+        result = 1
+        fallthrough
+    case 2:
+        result = 2
+    case 5:
+        result = 3
+    default:
+        result = 4
+}
+
+print(result) // чему будет равен?
+```
+
+```Swift
+Ответ: 2
 ```
 
