@@ -14,13 +14,40 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
+    identifier = "RoadToIOS"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "RoadToIOS"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link.
+    title = ""
+    weight = 11
+  [[menu.main]]
+    identifier = "CSharpUnity"
+    pre = ""
+    post = ""
+    name = "CSharpUnity"
+    url = "/CSharpUnity/"
+    title = ""
+    weight = 10
+  [[menu.main]]
+    identifier = "Other"
+    pre = ""
+    post = ""
+    name = "Other"
+    url = "/Other/"
+    title = ""
+    weight = 12
+  [[menu.main]]
     identifier = "CV"
     pre = ""
     post = ""
     name = "CV"
     url = "cv.pdf"
     title = ""
-    weight = 2
+    weight = 13
   [[menu.main]]
     identifier = "Resume"
     pre = ""
@@ -28,7 +55,7 @@ theme = "LoveIt"
     name = "Resume"
     url = ""
     title = ""
-    weight = 2
+    weight = 14
 
 # Markup related configuration in Hugo
 [markup]
