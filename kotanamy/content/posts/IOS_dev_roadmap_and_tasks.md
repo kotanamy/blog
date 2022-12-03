@@ -23,10 +23,6 @@ Roadmap and tasks for Swift\IOS dev
 
 ### Roadmap
 
-![Roadmap](Images\roadmap.png "Roadmap")
-
-### Tasks
-
 Swift
 
 - [x] Константы и переменные,типы данных, базовые операторы.
